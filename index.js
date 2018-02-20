@@ -118,7 +118,7 @@ module.exports = class UnsplashDownloader extends EventEmitter {
         .evaluate(() => {
           var collections = []
 
-          document.querySelectorAll('._3GJR0 ._3Hy4V._21rCr').forEach((collection) => {
+          document.querySelectorAll('._3bEEx .fM0CB._1CBrG').forEach((collection) => {
             collections.push(collection.href)
           })
 
